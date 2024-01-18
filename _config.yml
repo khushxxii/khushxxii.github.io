@@ -28,9 +28,18 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: khushxxii
+linkedin_username: khushi-03786a286
+
+# header_pages:
+#   - index.html
+#   - archives.html
+#   - categories.html
+#   - tags.html
+#   - about.md
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
 # Exclude from processing.
@@ -52,3 +61,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Page default value
+defaults:
+  home:
+    heading: "Khushi"
+    subheading: "Student at Macquarie University '27"
+    # banner: "Your image url"
