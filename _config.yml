@@ -38,8 +38,7 @@ linkedin_username: khushi-03786a286
 #   - about.md
 
 # Build settings
-# theme: minima
-theme: jekyll-theme-yat
+theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
